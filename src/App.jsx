@@ -13,6 +13,7 @@ import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import LibraryAddCheckIcon from '@mui/icons-material/LibraryAddCheck';
 import FaceIcon from '@mui/icons-material/Face';
 import ReadMoreIcon from '@mui/icons-material/ReadMore';
+import ManageSearchOutlinedIcon from '@mui/icons-material/ManageSearchOutlined';
 
 
 
@@ -75,7 +76,7 @@ function Sidemenu() {
           <div className=' p-2  mt-10  ' >
             <div className='pl-6 mt-2 ' > <Link to='/' key='/' >  Home </Link> <span className=' float-right   ' >  <HomeIcon fontSize="small" color='  action  ' /> </span></div>
 
-            <div className='pl-6 mt-2 ' > <Link to='Studentmanager' key='/Studentmanager' >  Student Manager </Link>  <span className=' float-right   ' >  <LibraryBooksIcon fontSize="small" color='  action  ' /> </span> </div>
+            <div className='pl-6 mt-2 ' > <Link to='Studentmanager' key='/Studentmanager' >  Student Manager </Link>  <span className=' float-right   ' >  <FaceIcon fontSize="small" color='  action  ' /> </span> </div>
             <div className='pl-6 mt-2 ' > <Link to='Booksmanager' key='/Booksmanager' >  Books Manager </Link> <span className=' float-right   ' >  <LibraryBooksIcon fontSize="small" color='  action  ' /> </span>  </div>
            
 
@@ -98,7 +99,8 @@ function Home() {
 
       <div className=' bg-lime-500 rounded-md  h-40  w-72   p-2 text text-6xl   bg-gradient-to-r from-green-300  to-blue-500  hover:from-pink-500 hover:to-yellow-500 ..." '  >  23
         <span className=' text-2xl  flex pt-2  p-1' >Borrowed Books</span>
-        <span className='text-lg pt-2 text-black  flex justify-center ' > more info </span>
+               <span className='text-lg pt-2 text-black  flex justify-center ' > <span> more info  <ReadMoreIcon/></span> </span>
+
       </div>
 
 
@@ -312,8 +314,8 @@ function StudentManager() {
 
           <div className=" p-4 font-medium bg-white	 ">
             <div className=' pl-6 pt-5 pb-6   text-3xl flex justify-between' >Studen Manager
-            <div>
-
+            <div   >
+   <input   className=' container   bg-slate-300 rounded-md  text-lg ' type="text" placeholder='Search '   /> 
             </div>
             </div>
             <table >
