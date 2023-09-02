@@ -57,7 +57,7 @@ function Header() {
 function Footer() {
   return (
     <div>
-      Footer
+   
     </div>
   )
 }
@@ -105,12 +105,12 @@ function Home() {
 
 
       <div className=' bg-orange-500  rounded-md h-40 p-2 text-6xl  bg-gradient-to-r from-pink-300 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ..."  ' >34
-        <span className=' text-2xl  flex pt-2  p-1' >Borrowed Books</span>
+        <span className=' text-2xl  flex pt-2  p-1' >Total Number of books</span>
         <span className='text-lg pt-2 text-black  flex justify-center ' >  <span> more info  <ReadMoreIcon/></span></span>
       </div>
 
       <div className='  bg-red-950 rounded-md  h-40 p-2 text-6xl bg-gradient-to-r from-fuchsia-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ..."  ' >21
-        <span className=' text-2xl  flex pt-2  p-1' >Borrowed Books</span>
+        <span className=' text-2xl  flex pt-2  p-1' >Total Number pf Students</span>
         <span className='text-lg pt-2 text-black  flex justify-center ' > <span> more info  <ReadMoreIcon/></span> </span>
       </div>
 
@@ -120,12 +120,12 @@ function Home() {
       </div>
 
       <div className='  bg-red-950 rounded-md  h-40 p-2 text-6xl bg-gradient-to-r from-fuchsia-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ..."  ' >19
-        <span className=' text-2xl  flex pt-2  p-1' >Borrowed Books</span>
+        <span className=' text-2xl  flex pt-2  p-1' >Total Number of books</span>
         <span className='text-lg pt-2 text-black  flex justify-center ' ><span> more info  <ReadMoreIcon/></span></span>
       </div>
 
       <div className=' bg-orange-500  rounded-md h-40 p-2 text-6xl  bg-gradient-to-r from-pink-300 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ..."  ' >18
-        <span className=' text-2xl  flex pt-2  p-1' >Borrowed Books</span>
+        <span className=' text-2xl  flex pt-2  p-1' >Total Num of Students</span>
         <span className='text-lg pt-2 text-black  flex justify-center ' > <span> more info  <ReadMoreIcon/></span> </span>
       </div>
 
@@ -135,12 +135,12 @@ function Home() {
       </div>
 
       <div className='  bg-red-950 rounded-md  h-40 p-2 text-6xl bg-gradient-to-r from-fuchsia-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ..."  ' >21
-        <span className=' text-2xl  flex pt-2  p-1' >Borrowed Books</span>
+        <span className=' text-2xl  flex pt-2  p-1' >Total Number of books</span>
         <span className='text-lg pt-2 text-black  flex justify-center ' > <span> more info  <ReadMoreIcon/></span></span>
       </div>
 
       <div className='  bg-red-950 rounded-md  h-40 p-2 text-6xl bg-gradient-to-r from-fuchsia-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ..."  ' >10
-        <span className=' text-2xl  flex pt-2  p-1' >Borrowed Books</span>
+        <span className=' text-2xl  flex pt-2  p-1' >Total Num pf Studentss</span>
         <span className='text-lg pt-2 text-black  flex justify-center ' > <span> <span> more info  <ReadMoreIcon/></span><ReadMoreIcon/></span></span>
       </div>
 
@@ -151,12 +151,12 @@ function Home() {
 
 
       <div className='  bg-red-950 rounded-md  h-40 p-2 text-6xl bg-gradient-to-r from-fuchsia-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ..."  ' >23
-        <span className=' text-2xl  flex pt-2  p-1' >Borrowed Books</span>
+        <span className=' text-2xl  flex pt-2  p-1' >Total Number of books</span>
         <span className='text-lg pt-2 text-black  flex justify-center ' > <span> more info  <ReadMoreIcon/></span> </span>
       </div>
 
       <div className=' bg-red-500 rounded-md  h-40 p-2 text-6xl bg-gradient-to-r from-rose-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ..."  ' >26
-        <span className=' text-2xl  flex pt-2  p-1' >Borrowed Books</span>
+        <span className=' text-2xl  flex pt-2  p-1' >Total Num pf Studentss</span>
         <span className='text-lg pt-2 text-black  flex justify-center ' > <span> more info  <ReadMoreIcon/></span> </span>
 
 
@@ -304,7 +304,7 @@ function StudentManager() {
   return (
     <>
     <div>
-        <nav>   <h1 className='  p-2 font-sans text-5xl  float-left pt-3 pb-3      text-white  font-semibold bg-blue-600      '> <span  > <LibraryAddCheckIcon sx={{ fontSize: 40 }} /> LIBRARY MANAGEMENT SYSTEM</span> <span className='   pl-72 ml-32 pr-4  '   ><FaceIcon sx={{ fontSize: 40 }} /></span>  </h1></nav>
+        <nav>   <h1 className='  p-2 font-sans text-5xl  pb-3 flex justify-between     text-white  font-semibold bg-blue-600     '> <span  > <LibraryAddCheckIcon sx={{ fontSize: 40 }} /> LIBRARY MANAGEMENT SYSTEM</span> <span className='      pl-80 ml-24 pr-7  '   ><FaceIcon sx={{ fontSize: 40 }} /></span>  </h1></nav>
 
 
         <div className=' w-auto   h-auto  pt-10    ' >
@@ -403,7 +403,7 @@ function StudentManager() {
                   <td className='p-4'> 10</td>
                   <td className='p-4'> 10</td>
                   <td className='p-4'>250$</td>
-                  <th className='  btn btn-info  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >View</button></th>
+                  <th className='  btn btn-info  pl-6 pr-6  ml-2     ' ><button className=' p-1 ' >View</button></th>
                 
 
                 </tr>
