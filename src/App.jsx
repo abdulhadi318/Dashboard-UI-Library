@@ -2,6 +2,7 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './index.css'
+import { ReactDOM } from 'react';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -15,7 +16,7 @@ import FaceIcon from '@mui/icons-material/Face';
 import ReadMoreIcon from '@mui/icons-material/ReadMore';
 import ManageSearchOutlinedIcon from '@mui/icons-material/ManageSearchOutlined';
 import { useState } from 'react';
-import CRUD from './assets/CRUD';
+import StudentManagement from './assets/StudentManagement';
 
 
 function App() {
@@ -243,7 +244,7 @@ function StudentManager() {
   return(
     <>
     <div className='  pt-40 pl-10 ' >
-      <CRUD/>
+      <StudentManagement/>
     </div>
     </>
   )
