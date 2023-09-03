@@ -252,8 +252,9 @@ function StudentManager() {
     <>
     <div>   
     {/* <span className='    pl-0 '   ><FaceIcon sx={{ fontSize: 40 }} /></span>   */}
-        <div>    
-          <div className='  p-2 font-sans text-4xl  pb-3 flex  felx  justify-center      text-white  font-semibold bg-blue-600    '> <span className='  '  > <LibraryAddCheckIcon sx={{ fontSize: 40 }} /> LIBRARY MANAGEMENT SYSTEM</span> </div></div>
+    <span>    
+          <span className='  p-2 font-sans text-4xl  pb-3 flex  felx  justify-center      text-white  font-semibold bg-blue-600    '> <span className='  '  > <LibraryAddCheckIcon sx={{ fontSize: 40 }} /> LIBRARY MANAGEMENT SYSTEM</span> </span></span>
+
 
 
   </div>
