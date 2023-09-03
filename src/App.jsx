@@ -14,7 +14,8 @@ import LibraryAddCheckIcon from '@mui/icons-material/LibraryAddCheck';
 import FaceIcon from '@mui/icons-material/Face';
 import ReadMoreIcon from '@mui/icons-material/ReadMore';
 import ManageSearchOutlinedIcon from '@mui/icons-material/ManageSearchOutlined';
-
+import { useState } from 'react';
+import CRUD from './assets/CRUD';
 
 
 function App() {
@@ -238,16 +239,17 @@ function BooksManager() {
 
 }
 function StudentManager() {
-  return (
-    <>    
-  
+
+  return(
+    <>
+    <div className='  pt-40 pl-10 ' >
+      <CRUD/>
+    </div>
     </>
-
-
-
-
-
   )
+
+
+
 
 
 }
