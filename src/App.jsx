@@ -97,16 +97,16 @@ function Sidemenu() {
   )
 }
 
-function Home() {
-  return (
-  <>
-  <div>
-<Graph/>
-  </div>
-  </>
-  )
+// function Home() {
+//   return (
+//   <>
+//   <div>
+// <Graph/>
+//   </div>
+//   </>
+//   )
 
-}
+// }
 function BooksManager() {
   return (
 
@@ -136,7 +136,7 @@ function BooksManager() {
         <th className='p-2'>Quantity</th>
         <th className='p-2'>Available</th>
         <th className='p-2'>Price</th>
-        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
+        <th className='  btn btn-info    ml-80 ' ><button className='  ' >View</button></th>
 
 
 
@@ -155,7 +155,7 @@ function BooksManager() {
         <td className='p-2'> 10</td>
         <td className='p-2'> 10</td>
         <td className='p-2'>250$</td>
-        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
+        <th className='  btn btn-info    ml-80 ' ><button className='  ' >View</button></th>
 
 
         
@@ -176,7 +176,7 @@ function BooksManager() {
         <td className='p-2'>5</td>
         <td className='p-2'>5</td>
         <td className='p-2'>500$</td>
-        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
+        <th className='  btn btn-info    ml-80 ' ><button className='  ' >View</button></th>
 
 
     
@@ -195,7 +195,7 @@ function BooksManager() {
         <td className='p-2'> 10</td>
         <td className='p-2'> 10</td>
         <td className='p-2'>250$</td>
-        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
+        <th className='  btn btn-info   ml-80 ' ><button className='  ' >View</button></th>
 
 
  
@@ -207,7 +207,7 @@ function BooksManager() {
         <td className='p-2'> 10</td>
         <td className='p-2'> 10</td>
         <td className='p-2'>250$</td>
-        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
+        <th className='  btn btn-info    ml-80 ' ><button className='  ' >View</button></th>
 
 
 
@@ -220,7 +220,7 @@ function BooksManager() {
         <td className='p-2'> 10</td>
         <td className='p-2'> 10</td>
         <td className='p-2'>250$</td>
-        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
+        <th className='  btn btn-info   ml-80 ' ><button className='  ' >View</button></th>
 
 
        
