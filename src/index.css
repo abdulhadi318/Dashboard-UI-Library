@@ -72,3 +72,9 @@ button:focus-visible {
 @tailwind components;
 @tailwind utilities;
 
+.color{
+  background-color:  #797ff6
+}
+.color-H{
+background-color: #1e2f97
+}

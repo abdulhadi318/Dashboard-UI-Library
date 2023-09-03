@@ -17,6 +17,8 @@ import ReadMoreIcon from '@mui/icons-material/ReadMore';
 import ManageSearchOutlinedIcon from '@mui/icons-material/ManageSearchOutlined';
 import { useState } from 'react';
 import StudentManagement from './assets/StudentManagement';
+import Graph from './graph';
+import { Bar } from 'react-chartjs-2';
 
 
 function App() {
@@ -46,11 +48,11 @@ function App() {
 function Header() {
   return (
 
-    <div className=' p-2 bg-blue-500 flex   ' >
+    <div className=' p-2 color-H ' >
 
 
-      <div className=' text-white pl-8 text-3xl  font-semibold    ' >  E-LIBRARY</div>
-      <div className='text-white  text-3xl font-semibold   ml-60 pl-72  ' >Dashboard</div>
+      <span className=' text-white pl-8 text-3xl  font-semibold    ' >  E-LIBRARY</span>
+      <span className='text-white  text-3xl font-semibold   ml-60 pl-72  ' >Dashboard</span>
 
     </div>
 
@@ -67,8 +69,8 @@ function Sidemenu() {
   return (
 
     <div className='  to-white flex flex-row mb-3 ' >
-      <MenuList className='  p-0  ' >
-        <div className=' bg-slate-950  text-white  h-screen w-60 p-2 ' >
+      <MenuList className='  p-0 color ' >
+        <div className='  text-white  h-screen w-60 p-2 ' >
           <span className='   pl-7  conta   ' > <  AccountCircleIcon color='White' />  Uer Name</span>  <br />
           <span className=' text-xs  pl-12  ' >Online</span>
 
@@ -76,10 +78,10 @@ function Sidemenu() {
           <input className='mt-3  rounded-md border-solid  container-fluid  bg-slate-200 ' type="text" placeholder='Serch...' />
 
           <div className=' p-2  mt-10  ' >
-            <div className='pl-6 mt-2 ' > <Link to='/' key='/' >  Home </Link> <span className=' float-right   ' >  <HomeIcon fontSize="small" color='  action  ' /> </span></div>
+            {/* <div className='pl-6 mt-2 ' > <Link to='/' key='/' >  Home </Link> <span className=' float-right   ' >  <HomeIcon  /> </span></div> */}
 
-            <div className='pl-6 mt-2 ' > <Link to='Studentmanager' key='/Studentmanager' >  Student Manager </Link>  <span className=' float-right   ' >  <FaceIcon fontSize="small" color='  action  ' /> </span> </div>
-            <div className='pl-6 mt-2 ' > <Link to='Booksmanager' key='/Booksmanager' >  Books Manager </Link> <span className=' float-right   ' >  <LibraryBooksIcon fontSize="small" color='  action  ' /> </span>  </div>
+            <div className='pl-6 mt-2 ' > <Link to='Studentmanager' key='/Studentmanager' >  Student Manager </Link>  <span className=' float-right   ' >  <FaceIcon   /> </span> </div>
+            <div className='pl-6 mt-2 ' > <Link to='Booksmanager' key='/Booksmanager' >  Books Manager </Link> <span className=' float-right   ' >  <LibraryBooksIcon   /> </span>  </div>
            
 
 
@@ -98,6 +100,9 @@ function Sidemenu() {
 function Home() {
   return (
   <>
+  <div>
+<Graph/>
+  </div>
   </>
   )
 
@@ -108,8 +113,8 @@ function BooksManager() {
     <>
   <div>   
     {/* <span className='    pl-0 '   ><FaceIcon sx={{ fontSize: 40 }} /></span>   */}
-        <div>    
-          <div className='  p-2 font-sans text-4xl  pb-3 flex  felx  justify-center      text-white  font-semibold bg-blue-600    '> <span className='  '  > <LibraryAddCheckIcon sx={{ fontSize: 40 }} /> LIBRARY MANAGEMENT SYSTEM</span> </div></div>
+        <span>    
+          <span className='  p-2 font-sans text-4xl  pb-3 flex  felx  justify-center      text-white  font-semibold bg-blue-600    '> <span className='  '  > <LibraryAddCheckIcon sx={{ fontSize: 40 }} /> LIBRARY MANAGEMENT SYSTEM</span> </span></span>
 
 
 
@@ -269,7 +274,7 @@ function StudentManager() {
 function Content() {
   return <div>
     <Routes>
-      <Route path='/' element={<Home />} >  </Route>
+      {/* <Route path='/' element={<Home />} >  </Route> */}
       <Route path='/Studentmanager' element={<StudentManager />} >  </Route>
     
 
