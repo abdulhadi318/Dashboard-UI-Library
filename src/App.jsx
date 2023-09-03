@@ -118,24 +118,21 @@ function BooksManager() {
 
 
 
-<div className=" p-4 font-medium bg-white	 ">
-  <div className=' pl-6 pt-4 pb-4   text-3xl flex justify-between' >Books Manager
-  <div>
-<button className='btn btn-primary' > Add Books</button>
-  </div>
+<div className=" p-2 font-medium bg-white	 ">
+  <div className=' pl-2 pt-2 pb-2   text-3xl flex justify-between' >Books Manager
+  
   </div>
   <table >
     <thead className=' text-black font-sans font-semibold bg-white' >
       <tr className='' >
-        <th className='p-4' >Name</th>
-        <th className='p-4' >ISBN</th>
-        <th className='p-4'>Catagory</th>
-        <th className='p-4'>Quantity</th>
-        <th className='p-4'>Available</th>
-        <th className='p-4'>Price</th>
-        <th className='  btn btn-info  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >View</button></th>
-        <th className='  btn btn-primary pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Edit</button></th>
-        <th className='  btn btn-danger  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Delete </button></th>
+        <th className='p-2' >Name</th>
+        <th className='p-2' >ISBN</th>
+        <th className='p-2'>Catagory</th>
+        <th className='p-2'>Quantity</th>
+        <th className='p-2'>Available</th>
+        <th className='p-2'>Price</th>
+        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
+
 
 
 
@@ -147,35 +144,18 @@ function BooksManager() {
       <tr >
 
 
-
-        <td className='p-4 p ' >Abdul Hadi</td>
-        <td className='p-4'> 1423025461</td>
-        <td className='p-4'> Physyology</td>
-        <td className='p-4'> 10</td>
-        <td className='p-4'> 10</td>
-        <td className='p-4'>250$</td>
-        <th className='  btn btn-info  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >View</button></th>
-        <th className='  btn btn-primary pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Edit</button></th>
-        <th className='  btn btn-danger  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Delete </button></th>
+        <td className='p-2  ' >Abdul Hadi</td>
+        <td className='p-2'> 1423025461</td>
+        <td className='p-2'> Physyology</td>
+        <td className='p-2'> 10</td>
+        <td className='p-2'> 10</td>
+        <td className='p-2'>250$</td>
+        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
 
 
+        
+       
 
-
-
-
-
-
-      </tr>
-      <tr>
-        <td className='p-4'>Muhammad Hammad</td>
-        <td className='p-4'> 1423025461</td>
-        <td className='p-4'>Mony Making</td>
-        <td className='p-4'>5</td>
-        <td className='p-4'>5</td>
-        <td className='p-4'>500$</td>
-        <th className='  btn btn-info  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >View</button></th>
-        <th className='  btn btn-primary pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Edit</button></th>
-        <th className='  btn btn-danger  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Delete </button></th>
 
 
 
@@ -185,38 +165,60 @@ function BooksManager() {
 
       </tr>
       <tr>
-        <td className='p-4  ' >Ammar</td>
-        <td className='p-4'> 1423025461</td>
-        <td className='p-4'> Physyology</td>
-        <td className='p-4'> 10</td>
-        <td className='p-4'> 10</td>
-        <td className='p-4'>250$</td>
-        <th className='  btn btn-info  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >View</button></th>
-        <th className='  btn btn-primary pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Edit</button></th>
-        <th className='  btn btn-danger  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Delete </button></th>
-      </tr>
-      <tr>
-        <td className='p-4  ' >Anaus</td>
-        <td className='p-4'> 1423025461</td>
-        <td className='p-4'> Physyology</td>
-        <td className='p-4'> 10</td>
-        <td className='p-4'> 10</td>
-        <td className='p-4'>250$</td>
-        <th className='  btn btn-info  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >View</button></th>
-        <th className='  btn btn-primary pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Edit</button></th>
-        <th className='  btn btn-danger  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Delete </button></th>
+        <td className='p-2'>Muhammad Hammad</td>
+        <td className='p-2'> 1423025461</td>
+        <td className='p-2'>Two one Act</td>
+        <td className='p-2'>5</td>
+        <td className='p-2'>5</td>
+        <td className='p-2'>500$</td>
+        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
+
+
+    
+
+
+
+
+
+
 
       </tr>
       <tr>
-        <td className='p-4  ' >Amir</td>
-        <td className='p-4'> 1423025461</td>
-        <td className='p-4'> Physyology</td>
-        <td className='p-4'> 10</td>
-        <td className='p-4'> 10</td>
-        <td className='p-4'>250$</td>
-        <th className='  btn btn-info  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >View</button></th>
-        <th className='  btn btn-primary pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Edit</button></th>
-        <th className='  btn btn-danger  pl-6 pr-6  ml-2 ' ><button className=' p-1 ' >Delete </button></th>
+        <td className='p-2  ' >Ammar</td>
+        <td className='p-2'> 1423025461</td>
+        <td className='p-2'> Science</td>
+        <td className='p-2'> 10</td>
+        <td className='p-2'> 10</td>
+        <td className='p-2'>250$</td>
+        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
+
+
+ 
+      </tr>
+      <tr>
+        <td className='p-2  ' >Anaus</td>
+        <td className='p-2'> 1423025461</td>
+        <td className='p-2'> Astrology</td>
+        <td className='p-2'> 10</td>
+        <td className='p-2'> 10</td>
+        <td className='p-2'>250$</td>
+        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
+
+
+
+
+      </tr>
+      <tr>
+        <td className='p-2  ' >Amir</td>
+        <td className='p-2'> 1423025461</td>
+        <td className='p-2'> Technology</td>
+        <td className='p-2'> 10</td>
+        <td className='p-2'> 10</td>
+        <td className='p-2'>250$</td>
+        <th className='  btn btn-info    ml-72 ' ><button className='  ' >View</button></th>
+
+
+       
 
       </tr>
    
@@ -243,7 +245,15 @@ function StudentManager() {
 
   return(
     <>
-    <div className='  pt-40 pl-10 ' >
+    <div>   
+    {/* <span className='    pl-0 '   ><FaceIcon sx={{ fontSize: 40 }} /></span>   */}
+        <div>    
+          <div className='  p-2 font-sans text-4xl  pb-3 flex  felx  justify-center      text-white  font-semibold bg-blue-600    '> <span className='  '  > <LibraryAddCheckIcon sx={{ fontSize: 40 }} /> LIBRARY MANAGEMENT SYSTEM</span> </div></div>
+
+
+  </div>
+    <div className='  pt-5 pl-2 ' >
+      
       <StudentManagement/>
     </div>
     </>

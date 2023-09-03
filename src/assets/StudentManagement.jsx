@@ -22,16 +22,19 @@ function StudentManagement() {
   };
 
   return (
-    <div>
-      <h1>Student Management</h1>
+    
+    <div className=' ' >
+      <div className=' text-left text-3xl  font-medium ' >Student Management</div>
       <div>
         <input
+      className='p-1  border-2 mr-1 mt-1 to-black rounded-md  border-r-2 border-gray-500   '
           type="text"
           placeholder="Name"
           value={newStudent.name}
           onChange={(e) => setNewStudent({ ...newStudent, name: e.target.value })}
         />
           <input
+         className='p-1  border-2 mr-1 to-black rounded-md  border-r-2 border-gray-500   '
           type="text"
           placeholder="Isbn"
           value={newStudent.Isbn}
@@ -39,18 +42,21 @@ function StudentManagement() {
         />
        
         <input
+      className='p-1  border-2 mr-1 to-black rounded-md  border-r-2 border-gray-500   '
           type="text"
           placeholder="Catagory"
           value={newStudent.Catagory}
           onChange={(e) => setNewStudent({ ...newStudent, Catagory: e.target.value })}
         />
          <input
+      className='p-1  border-2 mr-1 to-black rounded-md  border-r-2 border-gray-500   '
           type="text"
           placeholder="Quantity"
           value={newStudent.Quantity}
           onChange={(e) => setNewStudent({ ...newStudent, Quantity: e.target.value })}
         />
          <input
+        className='p-1  border-2 mr-1 to-black rounded-md  border-r-2 border-gray-500   '
           type="text"
           placeholder="Available"
           value={newStudent.Available}
@@ -58,23 +64,24 @@ function StudentManagement() {
         />
       
       <input
+      className='p-1 mt-1 mr-1  border-2 to-black rounded-md  border-r-2 border-gray-500   '
           type="text"
           placeholder="price"
           value={newStudent.price}
           onChange={(e) => setNewStudent({ ...newStudent, price: e.target.value })}
         />
-        <button className='btn btn-primary' onClick={addStudent}>Add Student</button>
+   
       </div>
       <table>
         <thead>
           <tr>
-            <th className='' >Name</th>
-            <th  className='p-6' >Isbn</th>
-            <th  className='p-6'>Catagory</th>
-            <th  className='p-6'>Quantity</th>
-            <th  className='p-6'>Available</th>
-            <th className='p-6'>price</th>
-
+            <th className='p-2' >Name</th>
+            <th  className='p-2' >Isbn</th>
+            <th  className='p-2'>Catagory</th>
+            <th  className='p-2'>Quantity</th>
+            <th  className='p-2'>Available</th>
+            <th className='p-2'>price</th>
+            <button  className='btn btn-primary ml-68 ' onClick={addStudent}>Add Student</button>
        
             
           </tr>
@@ -82,12 +89,12 @@ function StudentManagement() {
         <tbody>
           {students.map((student, index) => (
             <tr key={index}>
-              <td className='p-6'>{student.name}</td>
-              <td className='p-6'>{student.Isbn}</td>
-              <td className='p-6'>{student.Catagory}</td>
-              <td className='p-6'>{student.Quantity}</td>
-              <td className='p-6'>{student.Available}</td>
-              <td className='p-6'>{student.price}</td>
+              <td className='p-2'>{student.name}</td>
+              <td className='p-2'>{student.Isbn}</td>
+              <td className='p-2'>{student.Catagory}</td>
+              <td className='p-2'>{student.Quantity}</td>
+              <td className='p-2'>{student.Available}</td>
+              <td className='p-2'>{student.price}</td>
 
            
 
